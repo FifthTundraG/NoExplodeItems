@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "no_explode_items",
+  "version": "${version}",
+  "name": "NoExplodeItems",
+  "description": "A serverside Minecraft mod that prevents items from exploding.",
+  "authors": [
+    "FifthTundraG"
+  ],
+  "contact": {
+    "homepage": "https://fifthtundrag.github.io",
+    "sources": "https://github.com/FifthTundraG/NoExplodeItems"
+  },
+  "license": "MIT",
+  "icon": "assets/no_explode_items/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "no_explode_items.fabric.NoExplodeItemsFabric"
+    ]
+  },
+  "mixins": [
+    "no_explode_items.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
