@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-#issueTrackerURL = ""
+issueTrackerURL = "https://github.com/FifthTundraG/NoExplodeItems/issues"
 license = "MIT"
 
 [[mods]]
@@ -16,14 +16,14 @@ A serverside Minecraft mod that prevents items from exploding.
 [[dependencies.no_explode_items]]
 modId = "neoforge"
 type = "required"
-versionRange = "[21.4,)"
+versionRange = "[21.0,)"
 ordering = "NONE"
 side = "SERVER"
 
 [[dependencies.no_explode_items]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.21.4,)"
+versionRange = "[1.21,)"
 ordering = "NONE"
 side = "SERVER"
 
