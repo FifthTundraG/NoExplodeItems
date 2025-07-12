@@ -11,7 +11,7 @@ authors = "FifthTundraG"
 description = '''
 A serverside Minecraft mod that prevents items from exploding.
 '''
-#logoFile = ""
+logoFile = "META-INF/icon.png"
 
 [[dependencies.no_explode_items]]
 modId = "neoforge"
