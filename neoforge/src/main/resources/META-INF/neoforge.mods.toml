@@ -16,14 +16,14 @@ logoFile = "META-INF/icon.png"
 [[dependencies.no_explode_items]]
 modId = "neoforge"
 type = "required"
-versionRange = "[21.0,)"
+versionRange = "[26.1,)"
 ordering = "NONE"
 side = "SERVER"
 
 [[dependencies.no_explode_items]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.21,)"
+versionRange = "[26.1,)"
 ordering = "NONE"
 side = "SERVER"
 
